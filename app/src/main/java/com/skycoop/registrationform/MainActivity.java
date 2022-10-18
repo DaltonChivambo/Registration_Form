@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view,"Enter name and age",Snackbar.LENGTH_SHORT).show();
             }else {
                 returnInformation(view);
+                Toast.makeText(this,"successfully registered",Toast.LENGTH_SHORT).show();
             }
 
         });
