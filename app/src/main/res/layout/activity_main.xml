@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    style="@style/SCREEN"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -20,8 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:gravity="center"
+        style="@style/TEXTVIEW"
         android:text="Registration Form"
-        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -30,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="15dp"
-        android:background="@color/white"
+        style="@style/EDITTEXT"
         android:maxLength="30"
         android:ems="10"
         android:hint="Full name"
@@ -42,7 +41,7 @@
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_margin="15dp"
-        android:background="@color/white"
+        style="@style/EDITTEXT"
         android:ems="10"
         android:hint="Age"
         android:inputType="number"
@@ -55,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:text="Genre"
+        style="@style/TEXTVIEW"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -78,10 +78,11 @@
 
     <Button
         android:id="@+id/bt_register"
+        style="@style/BUTTON"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
         android:text="Register" />
 
     <TextView
@@ -89,6 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -98,6 +100,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -107,6 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"
         android:textStyle="bold" />

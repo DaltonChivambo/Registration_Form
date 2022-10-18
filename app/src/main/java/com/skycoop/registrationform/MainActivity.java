@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
         String age = edit_age.getText().toString();
         if (rb_female.isChecked()){
             tv_name.setText(name);
-            tv_age.setText("Age: "+age);
+            tv_age.setText("Age: "+age+" years");
             tv_gender.setText("Gender: Female");
 
         }else if (rb_masculine.isChecked()){
             tv_name.setText(name);
-            tv_age.setText("Age: "+age);
+            tv_age.setText("Age: "+age+" years");
             tv_gender.setText("Gender: Masculine");
         }else {
             Snackbar.make(view,"Select your sex",Snackbar.LENGTH_SHORT).show();

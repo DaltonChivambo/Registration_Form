@@ -13,4 +13,18 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Ligth mode -->
+    <!-- Screen background if light mode on -->
+    <style name="SCREEN">
+        <item name="android:background">@color/gray</item>
+    </style>
+    <!-- Texts background if light mode on -->
+    <style name="EDITTEXT">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Button background if light mode on-->
+    <style name="BUTTON">
+        <item name="android:backgroundTint">@color/purple_700</item>
+    </style>
 </resources>
