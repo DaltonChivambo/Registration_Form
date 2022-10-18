@@ -20,7 +20,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edit_name"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="15dp"
@@ -31,7 +31,7 @@
         android:padding="15dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edit_age"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="15dp"
@@ -55,20 +55,20 @@
         android:layout_margin="15dp">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rb_masculine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Masculine" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rb_female"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Female" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/br_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
